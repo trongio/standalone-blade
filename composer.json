@@ -1,0 +1,26 @@
+{
+    "name": "trongio/standalone-blade",
+    "description": "This is a small project that implements Laravel's Blade templating engine in a standalone PHP project. with file routing",
+    "license": "MIT",
+    "keywords": ["blade", "laravel", "templating", "view", "php", "standalone blade", "routing", "file routing", "standalone"],
+    "scripts": {
+        "serve": "php -S localhost:8000 -t public"
+    },
+    "type": "project",
+    "require": {
+        "illuminate/view": "^11.6",
+        "symfony/var-dumper": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gioka\\BladeTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giorgi Kakabadze",
+            "email": "giokakabadze50@gmail.com",
+            "role": "Author"
+        }
+    ]
+}
