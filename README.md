@@ -5,14 +5,22 @@
 
 ## Initialization
 
-1) clone the repo:
-`git clone https://github.com/trongio/standalone-blade.git`
+1) clone the repo
+```
+git clone https://github.com/trongio/standalone-blade.git
+```
 
 2) go to downloaded folder
-```cd standalone-blade```
+```
+cd standalone-blade
+```
 
 3) Install dependencies
-```composer install```
+```
+composer install
+```
 
 4) start the server
-```composer serve```
+```
+composer serve
+```
